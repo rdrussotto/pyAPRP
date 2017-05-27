@@ -20,11 +20,16 @@ comparing two different time periods; the two time periods can be from the same 
 The function takes 6 arguments: 
 
 dataPaths1:  dictionary of paths to the netCDF output for time period 1
+
 firstMonth1: first month (indexed from beginning of output) for time period 1--note Python indices start with 0
+
 lastMonth1:   last month (indexed from beginning of output) for time period 1
+
 dataPaths2:  dictionary of paths to the netCDF output for time period 2 
              (if the two states being compared are different times from the same run, make this the same as dataPaths1)
+             
 firstMonth2: first month (indexed from beginning of output) for time period 2
+
 lastMonth2:   last month (indexed from beginning of output) for time period 2
 
 Keys in the dataPaths dictionaries should be variable names following the 
